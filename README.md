@@ -98,10 +98,26 @@ To enhance the reliability of the insights, inconsistent data records (e.g., neg
 
 ## ⚙️ How to Run the Project
 
-1. **Clone the repository and place data files:**
-   Ensure your raw CSV files are placed in the designated `data` directory.
+1. **Clone the repository and download the dataset:**
+   Access the raw dataset here: [Vendor Inventory Dataset](https://drive.google.com/file/d/1pupciuE0cp3d-2U4453M9QnDs1J7DOAc/view?usp=sharing). Ensure the downloaded CSV files are extracted and placed in the designated `data` directory.
    
 2. **Database Ingestion:**
    Run the following script to build the `inventory.db` SQLite database from the raw CSVs.
    ```bash
    python ingestion_db.py
+   
+
+### Data Aggregation & KPI Calculation:
+Run the summary script to generate the aggregated summary table.
+python get_vendor_summary.py
+
+### Dashboard Generation:
+Import vendor_sales_summary.csv into Power BI to interact with the dashboard.
+
+
+## 📫 Contacts
+Mayank Raj | Data Analyst
+
+📧 Email: rajmayank362@gmail.com
+
+💼 LinkedIn: Mayank Raj
