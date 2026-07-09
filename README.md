@@ -74,4 +74,34 @@ To enhance the reliability of the insights, inconsistent data records (e.g., neg
 * **Impact:** This heavy reliance on a few key suppliers introduces significant supply chain vulnerability if disruptions occur.
 
 ### 3. The Power of Bulk Purchasing
-* **Insight:** Vendors buying in large quantities receive a **72% lower unit cost** ($10.78 per unit vs $39.
+* **Insight:** Vendors buying in large quantities receive a **72% lower unit cost** ($10.78 per unit vs $39.06 for smaller orders).
+* **Impact:** Bulk pricing strategies successfully encourage larger orders, driving up total sales while defending margins.
+
+### 4. Inventory Turnover Inefficiencies
+* **Insight:** A total of **$2.1M** is tied up in unsold inventory capital, driven by vendors with low stock turnover ratios (e.g., *Alisa Carr Beverages*, *Highland Wine Merchants*).
+* **Impact:** Slow-moving inventory inflates storage costs and strangles cash flow.
+
+### 5. Profit Margin Comparison: High vs. Low Performing Vendors
+* **Insight:** Statistical testing confirms that lower-selling vendors maintain significantly higher profit margins (Mean: 41.57%) compared to top-selling high-volume vendors (Mean: 31.18%).
+* **Impact:** Low-performing vendors utilize premium pricing or have lower operational costs, but desperately need volume-driving strategies. High-performing vendors run on efficiency but could explore price bundling to edge up margins.
+
+---
+
+## 🚀 Recommendations
+1. **Re-evaluate Pricing Strategies:** Adjust pricing for low-sales, high-margin brands to boost volume without destroying profitability.
+2. **Diversify Partnerships:** Reduce dependency on the top 10 suppliers to mitigate supply chain disruption risks.
+3. **Leverage Bulk Purchasing:** Continue taking advantage of bulk purchasing discounts to maintain competitive consumer pricing while optimizing inventory.
+4. **Liquidate Slow-Moving Stock:** Optimize the $2.1M in unsold inventory by adjusting future purchase quantities, launching clearance sales, or revising storage strategies.
+5. **Boost Low-Performing Vendors:** Enhance marketing and distribution channels for low-performing (but high-margin) vendors to scale their sales volumes.
+
+---
+
+## ⚙️ How to Run the Project
+
+1. **Clone the repository and place data files:**
+   Ensure your raw CSV files are placed in the designated `data` directory.
+   
+2. **Database Ingestion:**
+   Run the following script to build the `inventory.db` SQLite database from the raw CSVs.
+   ```bash
+   python ingestion_db.py
