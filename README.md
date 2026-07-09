@@ -39,9 +39,9 @@ This project focuses on Exploratory Data Analysis (EDA) of vendor performance, i
 ---
 
 ## 🖥️ Dashboard
-*(Insert your Power BI or visualization dashboard screenshot below)*
+*(A visual representation of the vendor performance and inventory analysis)*
 
-![Dashboard Screenshot]("https://github.com/mayank864/eda-vendor-performance-analysis-sql-python-powerbi/blob/main/Dashboard.png")
+![Dashboard Screenshot](https://github.com/mayank864/eda-vendor-performance-analysis-sql-python-powerbi/blob/main/Dashboard.png?raw=true)
 
 ---
 
