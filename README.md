@@ -41,7 +41,7 @@ This project focuses on Exploratory Data Analysis (EDA) of vendor performance, i
 ## 🖥️ Dashboard
 *(Insert your Power BI or visualization dashboard screenshot below)*
 
-![Dashboard Screenshot](replace-this-with-your-dashboard-image-link-or-path.png)
+![Dashboard Screenshot]("https://github.com/mayank864/eda-vendor-performance-analysis-sql-python-powerbi/blob/main/Dashboard.png")
 
 ---
 
@@ -114,10 +114,7 @@ python get_vendor_summary.py
 ### Dashboard Generation:
 Import vendor_sales_summary.csv into Power BI to interact with the dashboard.
 
-
 ## 📫 Contacts
-Mayank Raj | Data Analyst
-
-📧 Email: rajmayank362@gmail.com
-
-💼 LinkedIn: Mayank Raj
+**Mayank Raj** | *Data Analyst*
+* 📧 Email: [rajmayank362@gmail.com](mailto:rajmayank362@gmail.com)
+* 💼 LinkedIn: [Mayank Raj](https://www.linkedin.com/in/mayank-raj-12aa36368/)
